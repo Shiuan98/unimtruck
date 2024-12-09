@@ -1,0 +1,562 @@
+/************** General Use ***************/ 
+
+body{overflow-x: hidden;}
+.feedback-text{font-size: 1.3rem; color:black;}
+
+/************** Header ***************/ 
+.logo{width: 100%;}
+.sea-icon{width: 80px;position: relative;float: right;margin-top: 3.8rem;}
+.sea-icon:hover{transform: scale(1.1);transition: all .3s ease;}
+.navbar{background-color: #98d4d6;display: block;padding-left: 4rem;padding-right: 3rem;overflow: hidden;}
+.navbar-brand{width: 450px;}
+
+/************** HeroBanner ***************/ 
+.unicorn-bg{width: 100%;margin-top: -22rem;}
+.hero-banner{background-color: #fce88e;overflow: hidden;}
+.hero-banner .container-fluid{position:absolute;}
+.hero-banner h1{font-size: 5.5rem;color: #ed85c2;}
+.hero-banner p{font-size: 1.6rem;}
+.hero-btn{display: inline-grid;font-family: Gothan Medium Italic;}
+.hero-btn button{width: 365px;height: 100px;border-radius: 30px;border:4px solid #ffffff;font-size: 2.7rem;text-align: left;padding-left: 20px;color: #4b1535;}
+.unicorn-truck{max-width: 100%;margin-top: 7rem;}
+.unicorn-truck{animation: shake 0.4s infinite ease-in-out alternate;}
+.countdown-timer{width: 370px;height: 230px;border: 4px solid #ffffff;border-radius: 32px;float:right;background-color: #bb93dd;}
+.unicorn-egg{width: 110px;position: absolute;margin-left: -2.5rem;}
+.countdown-timer h2{margin-left: 4.5rem;color: #ffffff;margin-top: .5rem;font-size: 2.3rem;}
+.countdown-timer .row .col-md-4 p{font-family: 'Bebas Neue';font-size: 1.8rem;text-align: center;color: #4b1535;}
+.countdown-timer .row{margin-left: 1.5rem;padding: 0px 20px;}
+.time-box{border: 3px solid #ffffff;width: 100%; height:40px;margin-top: -1rem;background-color: #91d3c1;}
+.time-box p{font-family: 'Bebas Neue'; font-size: 2rem!important;margin-top: -8px;color: #4b1535;}
+.mint-truck-btn{background-color: #ed85c2;}
+.works-btn{background-color: #91d3c1;}
+.garage-btn{background-color: #dfa88e;}
+.mint-truck-btn:hover, .works-btn:hover, .garage-btn:hover{transform: scale(1.1);transition: all .3s ease;}
+.first-row{margin-top: 3rem;padding: 0px 80px 0px 140px;}
+.flip-countdown{--background-color:#91d3c1!important;--background-bottom-color:#91d3c1!important;--text-color:#000000!important;--text-bottom-color:#4b1535!important;font-family: 'Bebas Neue'!important;font-size: 1.8rem!important;}
+.flip-countdown.size-small .flip-countdown-piece .flip-countdown-title{font-size: 1.8rem!important;}
+.flip-countdown .flip-countdown-piece .flip-countdown-card{display: inline-flex!important;text-align: center!important;}
+.flip-countdown.size-small .flip-countdown-piece{width: 70px!important;}
+.flip-countdown.size-small .flip-countdown-piece .flip-countdown-card .flip-countdown-card-sec{font-size: 2.5rem!important;}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+/************** Weekly Raffle ***************/ 
+.weekly-raffle{background-color: #bb93dd;overflow: hidden;padding:80px;}
+.unicorn-eggs{width: 500px;}
+.weekly-raffle h2{font-size: 4rem;width: 80%;}
+.weekly-raffle p{font-size: 1.6rem;}
+.weekly-raffle .col-md-5{text-align: center;}
+.weekly-raffle .second-row{width: 320px;}
+.weekly-raffle .second-row p{font-family: 'Bebas Neue';font-size: 2.5rem;text-align: center;color: #4b1535;}
+.weekly-raffle .time-box{height: 60px;}
+.weekly-raffle .time-box p{font-size: 3rem!important;}
+.weekly-raffle .flip-countdown .flip-countdown-piece .flip-countdown-card{display:flex!important;text-align: center!important;}
+.weekly-raffle .flip-countdown{text-align: left!important;}
+.weekly-raffle .flip-countdown.size-medium .flip-countdown-piece{text-align: center!important;}
+.weekly-raffle .flip-countdown.size-medium .flip-countdown-piece .flip-countdown-title{font-size: 2rem!important;}
+.weekly-raffle .flip-countdown.size-medium .flip-countdown-piece{margin: 0 0.5em!important;}
+
+/************** Truck Mint ***************/ 
+.truck-mint{overflow: hidden;padding: 80px;background-color: #ed85c2;}
+.truck-mint .col-md-5{text-align: center;}
+.truck-mint .col-md-5 p{font-size: 2.5rem;text-align: center;color: #4b1535;font-weight: bold;margin-top: 1rem;}
+.truck-mint h2{font-size: 4rem;width: 80%;}
+.small-truck{width: 180px;}
+.truck-mint h3{font-size: 4rem; margin-top: 1.5rem;}
+.connect-metamask{color: #ffffff;background-color: #4b1535;font-size: 3.5rem;padding: 5px 35px;border:none;margin-top: 1.5rem;font-family: 'Gothan Medium Italic';}
+.connect-metamask:hover{transform: scale(1.1);transition: all .3s ease;}
+.truck-mint .mint-quantity{color: #4b1535;background-color: #ffffff;font-size: 3.5rem;padding: 5px 35px;border:none;font-family: 'Gothan Medium Italic';width: 250px;}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/************** How it Works ***************/ 
+.how-works{overflow: hidden;background-color: #91d3c1;padding: 80px;}
+.how-works h2{font-size: 4.5rem;}
+.how-works p{font-size: 2rem;color: #4b1535;margin-top: 1rem;letter-spacing: -.5px;}
+.how-works p span{font-size: 3rem;}
+.how-works img{height: 200px;}
+.how-works .col-md-4{text-align: center;margin-top: 2rem;}
+
+/************** Unicorn Milk Truck APR ***************/ 
+.truck-return{background-color: #585453;overflow: hidden;padding: 80px;}
+.truck-return h2{font-size: 4.5rem;}
+.truck-return img{max-width: 75%;}
+.truck-return .col-md-4{text-align: center;margin-top: 3rem;}
+.truck-return .col-md-4 p{font-size: 3rem;margin-top: 1rem;}
+.truck-return .common-word{color: #c5fccd;}
+.truck-return .rare-word{color: #ed85c2;}
+.truck-return .mythic-word{color: #fce88e;}
+
+/*************** FAQ ***********************/
+.faq{padding: 80px;overflow: hidden;background-color: #98d4d6;}
+.faq h2{font-size: 4.5rem;color: #ffffff;margin-bottom: 1.5rem;}
+.faq-list {list-style: none;padding: 0;border:4px solid #ffffff;padding: 0;transition: all .3s ease;}
+.faqs {border-bottom: 4px solid #ffffff;padding: 20px 20px 0px 20px;text-align: left;position: relative;z-index: 1;}
+.faq-heading {position: relative;cursor: pointer;color: #4b1535;font-size: 2.5rem;transition: all 0.5s ease-out;}
+.faq-text {opacity: 0; max-height: 0;overflow-y: hidden;transition: all 0.5s ease;}
+.read {color: #4b1535;font-size: 1.5rem;}
+.faqs.open .faq-text{opacity: 1;max-height: 1000px;}
+.faqs:nth-child(7){border-bottom: none;}
+
+    /******** 768 - 1024 ********/
+    @media (min-width: 768px) and (max-width: 1024px) {
+      .feedback-text{font-size: 1rem; color:black;}
+      /************** Header ***************/ 
+      .logo{width: 50%;}
+      .sea-icon{width: 60px;margin-top: 1.5rem;}
+      .navbar{padding-left: 3rem;}
+      /************** HeroBanner ***************/ 
+      .unicorn-bg{margin-top: 4rem;}
+      .unicorn-truck{margin-top: 8rem;}
+      .first-row{padding: 0px 30px 0px 30px;}
+      .hero-banner h1{font-size: 3rem;}
+      .hero-banner p{font-size: 1.3rem;}
+      .countdown-timer{width: 285px;height: 185px;}
+      .unicorn-egg{width: 80px;}
+      .countdown-timer h2{font-size: 1.6rem;margin-left: 3rem;}
+      .countdown-timer .row{margin-left: 1rem;}
+      .hero-btn button{font-size: 1.8rem;width: 265px;height: 65px;}
+      /************** Weekly Raffle ***************/ 
+      .weekly-raffle{padding: 80px 30px;}
+      .unicorn-eggs{width: 100%;}
+      .weekly-raffle h2{font-size: 1.8rem;width: 90%;}
+      .weekly-raffle .second-row p{font-size: 2rem;}
+      .weekly-raffle .time-box p{font-size: 2.5rem!important;}
+      .weekly-raffle .time-box{height: 50px;}
+      .weekly-raffle .flip-countdown.size-medium .flip-countdown-piece .flip-countdown-title{font-size: 2.2rem!important;}
+      .weekly-raffle .flip-countdown.size-medium .flip-countdown-piece{margin: 0 0.2em!important;width: 90px!important;text-align: center!important;}
+      .weekly-raffle .flip-countdown.size-medium .flip-countdown-piece .flip-countdown-card .flip-countdown-card-sec{font-size: 3rem!important;}
+      .weekly-raffle .flip-countdown .flip-countdown-piece .flip-countdown-card{display: inline-flex!important;}
+      /************** Truck Mint ***************/ 
+      .truck-mint{padding: 80px 30px;}
+      .truck-mint .col-md-5 img{width: 90%;}
+      .truck-mint .col-md-5 p{font-size: 1.8rem;}
+      .truck-mint h2{font-size: 1.8rem;width: 90%;}
+      .small-truck{width: 100px;}
+      .truck-mint h3{font-size: 2rem;}
+      .connect-metamask{font-size: 1.5rem;}
+      .truck-mint .mint-quantity{font-size: 1.5rem;width: 180px;}
+      /************** How it Works ***************/ 
+      .how-works h2{font-size: 3rem;}
+      .how-works p{font-size: 1.2rem;}
+      .how-works p span{font-size: 2.5rem;}
+      .how-works{padding: 80px 30px;}
+      .how-works img{height: 115px;}
+      /************** Unicorn Milk Truck APR ***************/ 
+      .truck-return{padding: 80px 30px;}
+      .truck-return h2{font-size: 3rem;}
+      .truck-return .col-md-4 p{font-size: 1.7rem;}
+      .truck-return img{max-width: 80%;}
+      /************** FAQ ***************/ 
+      .faq{padding: 80px 30px;}
+      .faq h2{font-size: 3rem;}
+      .faq-heading{font-size: 1.5rem;}
+      .read{font-size: 1.1rem;}
+    }
+
+    /******** 900 - 1024 ********/
+    @media (min-width: 900px) and (max-width: 1024px) {
+      .unicorn-bg{margin-top: 1.5rem;}
+      .how-works img{height: 135px;}
+    }
+
+    /******** 1025 - 1296 ********/
+    @media (min-width: 1025px) and (max-width: 1296px) {
+      /************** Header ***************/ 
+      .logo{width: 60%;}
+      .sea-icon{width: 70px;margin-top: 2rem;}
+      /************** HeroBanner ***************/ 
+      .unicorn-bg{margin-top: 0rem;}
+      .first-row{padding: 0px 50px 0px 50px;}
+      .hero-banner h1{font-size: 3.5rem;}
+      .hero-banner p{font-size: 1.3rem;}
+      .countdown-timer{width: 300px;height: 200px;}
+      .unicorn-egg{width: 90px;}
+      .countdown-timer h2{font-size: 1.8rem;margin-left: 3.5rem;}
+      .hero-btn button{font-size: 2rem;width: 285px;height: 85px;}
+      /************** Weekly Raffle ***************/ 
+      .weekly-raffle{padding: 80px 50px;}
+      .unicorn-eggs{width: 100%;}
+      .weekly-raffle h2{font-size: 2.5rem;width: 90%;}
+      /************** Truck Mint ***************/ 
+      .truck-mint{padding: 80px 50px;}
+      .truck-mint .col-md-5 img{width: 90%;}
+      .truck-mint .col-md-5 p{font-size: 1.8rem;}
+      .truck-mint h2{font-size: 2.5rem;width: 90%;}
+      .small-truck{width: 120px;}
+      .truck-mint h3{font-size: 2.5rem;}
+      .connect-metamask{font-size: 2rem;}
+      .truck-mint .mint-quantity{font-size: 2rem;}
+      /************** How it Works ***************/ 
+      .how-works h2{font-size: 3.5rem;}
+      .how-works p{font-size: 2rem;}
+      .how-works{padding: 80px 50px;}
+      .how-works img{height: 150px;}
+      /************** Unicorn Milk Truck APR ***************/ 
+      .truck-return{padding: 80px 50px;}
+      .truck-return h2{font-size: 3.5rem;}
+      .truck-return .col-md-4 p{font-size: 2rem;}
+      .truck-return img{max-width: 80%;}
+      /************** Faq ***************/
+      .faq h2{font-size: 3.5rem;}
+      .faq-heading{font-size: 2rem;}
+      .read{font-size: 1.3rem;}
+
+    }
+
+    /******** 1075 - 1296 ********/
+    @media (min-width: 1075px) and (max-width: 1175px) {
+      .unicorn-bg{margin-top: -3rem;}
+    }
+
+    /******** 1176 - 1296 ********/
+    @media (min-width: 1176px) and (max-width: 1296px) {
+      .unicorn-bg{margin-top: -6rem;}
+    }
+
+    /******** 1297 - 1439 ********/
+    @media (min-width: 1297px) and (max-width: 1439px) {
+      /************** Header ***************/ 
+      .logo{width: 70%;}
+      .sea-icon{width: 80px;margin-top: 2rem;}
+      /************** HeroBanner ***************/ 
+      .unicorn-bg{margin-top: -8rem;}
+      .first-row{padding: 0px 50px 0px 50px;}
+      .hero-banner h1{font-size: 4rem;}
+      .hero-banner p{font-size: 1.8rem;}
+      .countdown-timer{width: 330px;height: 215px;}
+      .unicorn-egg{width: 95px;}
+      .countdown-timer h2{font-size: 1.8rem;margin-left: 4rem;margin-top: 1rem;}
+      .hero-btn button{font-size: 2rem;width: 300px;height: 100px;}
+      .unicorn-truck{max-width: 90%;}
+      /************** Weekly Raffle ***************/ 
+      .weekly-raffle{padding: 80px 50px;}
+      .unicorn-eggs{width: 100%;}
+      .weekly-raffle h2{font-size: 2.5rem;width: 90%;}
+      /************** Truck Mint ***************/ 
+      .truck-mint{padding: 80px 50px;}
+      .truck-mint .col-md-5 img{width: 90%;}
+      .truck-mint .col-md-5 p{font-size: 1.8rem;}
+      .truck-mint h2{font-size: 2.5rem;width: 90%;}
+      .small-truck{width: 120px;}
+      .truck-mint h3{font-size: 2.5rem;}
+      .connect-metamask{font-size: 2rem;}
+      .truck-mint .mint-quantity{font-size: 2rem;}
+      /************** How it Works ***************/ 
+      .how-works h2{font-size: 3.5rem;}
+      .how-works p{font-size: 2rem;}
+      .how-works{padding: 80px 50px;}
+      .how-works img{height: 150px;}
+      /************** Unicorn Milk Truck APR ***************/ 
+      .truck-return{padding: 80px 50px;}
+      .truck-return h2{font-size: 3.5rem;}
+      .truck-return .col-md-4 p{font-size: 2rem;}
+      .truck-return img{max-width: 80%;}
+      /************** Faq ***************/
+      .faq h2{font-size: 3.5rem;}
+      .faq-heading{font-size: 2rem;}
+      .read{font-size: 1.3rem;}
+    }
+
+    /******** 1440 - 1650 ********/
+    @media (min-width: 1440px) and (max-width: 1650px) {
+      /************** Header ***************/ 
+      .logo{width: 80%;}
+      .sea-icon{width: 85px;margin-top: 2.5rem;}
+      /************** HeroBanner ***************/ 
+      .first-row{padding: 0px 50px 0px 50px;}
+      .hero-banner h1{font-size: 4.5rem;}
+      .hero-banner p{font-size: 2rem;}
+      .countdown-timer{width: 350px;height: 230px;}
+      .unicorn-egg{width: 100px;}
+      .countdown-timer h2{font-size: 2rem;margin-left: 4.5rem;margin-top: 1.2rem;}
+      .hero-btn button{font-size: 2.5rem;width: 350px;height: 100px;}
+      .unicorn-truck{max-width: 90%;margin-top: 5.5rem;}
+      /************** Weekly Raffle ***************/ 
+      .weekly-raffle{padding: 80px 50px;}
+      .unicorn-eggs{width: 85%;}
+      .weekly-raffle h2{font-size: 3rem;width: 90%;}
+      /************** Truck Mint ***************/ 
+      .truck-mint{padding: 80px 50px;}
+      .truck-mint .col-md-5 img{width: 90%;}
+      .truck-mint .col-md-5 p{font-size: 2rem;}
+      .truck-mint h2{font-size: 3rem;width: 95%;}
+      .small-truck{width: 150px;}
+      .truck-mint h3{font-size: 3rem;}
+      .connect-metamask{font-size: 2.5rem;}
+      .truck-mint .mint-quantity{font-size: 2.5rem;width: 250px;}
+      /************** How it Works ***************/ 
+      .how-works h2{font-size: 4rem;}
+      .how-works{padding: 80px 50px;}
+      .how-works img{height: 200px;}
+      /************** Unicorn Milk Truck APR ***************/ 
+      .truck-return{padding: 80px 50px;}
+      .truck-return h2{font-size: 4rem;}
+      .truck-return .col-md-4 p{font-size: 2.5rem;}
+      .truck-return img{max-width: 85%;}
+      /************** Faq ***************/
+      .faq h2{font-size: 4rem;}
+      .faq-heading{font-size: 2.5rem;}
+      .read{font-size: 1.4rem;}
+    }
+
+    /******** 1440 - 1550 ********/
+    @media (min-width: 1440px) and (max-width: 1550px) {
+      .unicorn-bg{margin-top: -13rem;}
+    }
+
+    /******** 1551 - 1650 ********/
+    @media (min-width: 1551px) and (max-width: 1650px) {
+      .unicorn-bg{margin-top: -15rem;}
+    }
+
+    /******** 1651 - 1750 ********/
+    @media (min-width: 1651px) and (max-width: 1750px) {
+      .unicorn-bg{margin-top: -17rem;}
+    }
+
+    /******** 1751 - 1850 ********/
+    @media (min-width: 1751px) and (max-width: 1850px) {
+      .unicorn-bg{margin-top: -19rem;}
+    }
+
+    /******** 375 - 767 ********/
+    @media (min-width: 375px) and (max-width: 767px) {
+      /************** Header ***************/ 
+      .logo{width: 80%;}
+      .sea-icon{width: 50px;margin-top: 1.7rem;}
+      .navbar{padding-left: 1.5rem;padding-right: 1.5rem;}
+      .navbar-brand{width: 250px;}
+      /************** HeroBanner ***************/ 
+      .first-row{padding: 0px 30px 0px 30px;}
+      .hero-banner h1{font-size: 3rem;}
+      .hero-banner p{font-size: 1.2rem;}
+      .hero-banner p br{display: none;}
+      .countdown-timer{display: none;}
+      .unicorn-egg{width: 100px;}
+      .countdown-timer h2{font-size: 2rem;margin-left: 4.5rem;margin-top: 1.2rem;}
+      .hero-btn button{font-size: 2rem;width: 280px;height: 75px;}
+      .unicorn-truck{max-width: 90%;margin-top: 5.5rem;}
+      .hero-banner .container-fluid{position:relative;}
+      .hero-btn{width: 100%;text-align: center;}
+      .unicorn-bg{margin-top: -17rem;}
+      /************** Weekly Raffle ***************/ 
+      .weekly-raffle{padding: 80px 30px;}
+      .unicorn-eggs{width: 280px;}
+      .weekly-raffle h2{font-size: 1.5rem;width: 100%;text-align: center;}
+      .weekly-raffle .second-row{width: unset;}
+      .weekly-raffle .col-md-4{flex: 0 0 33.333333%; max-width: 33.333333%;}
+      .weekly-raffle .flip-countdown.size-medium .flip-countdown-piece .flip-countdown-title{font-size: 1.8rem!important;}
+      .weekly-raffle .flip-countdown.size-medium .flip-countdown-piece{margin: 0 0.2em!important;width: 65px!important;text-align: center!important;}
+      .weekly-raffle .flip-countdown.size-medium .flip-countdown-piece .flip-countdown-card .flip-countdown-card-sec{font-size: 2rem!important;}
+      .weekly-raffle .flip-countdown .flip-countdown-piece .flip-countdown-card{display: inline-flex!important;}
+      .weekly-raffle .flip-countdown{text-align: center!important;}
+      .weekly-raffle .col-md-7{padding-left: 0px;padding-right: 0px;}
+      /************** Truck Mint ***************/ 
+      .truck-mint{padding: 80px 30px;}
+      .truck-mint .col-md-5 img{width: 80%;}
+      .truck-mint .col-md-5 p{font-size: 1.2rem;margin-bottom:40px;}
+      .truck-mint h2{font-size: 2rem;width: 100%;}
+      .small-truck{width: 90px;}
+      .truck-mint h3{font-size: 1.8rem;}
+      .connect-metamask{font-size: 1.8rem;height: 70px;}
+      .truck-mint .mint-quantity{font-size: 1.8rem;width: 180px;height: 70px;}
+      .truck-mint .col-md-7{text-align: center;}
+      .truck-mint .col-md-7 h2 br{display: none;}
+      /************** How it Works ***************/ 
+      .how-works h2{font-size: 2.5rem;}
+      .how-works{padding: 80px 30px;}
+      .how-works img{height: 200px;}
+      .how-works p{font-size: 1.2rem;}
+      .how-works p span{font-size: 2.3rem;}
+      .how-works .container{padding-left: 0px;padding-right: 0px;}
+      /************** Unicorn Milk Truck APR ***************/ 
+      .truck-return{padding: 80px 30px;}
+      .truck-return h2{font-size: 2.5rem;}
+      .truck-return .col-md-4 p{font-size: 2rem;}
+      .truck-return img{max-width: 85%;}
+      .truck-return .container{padding-left: 0px;padding-right: 0px;}
+      /************** FAQ ***************/
+      .faq{padding: 80px 10px;}
+      .faqs{padding: 20px 10px 0px 10px;}
+      .faq h2{font-size: 2.5rem;}
+      .faq-heading{font-size: 1.1rem;}
+      .read{font-size: 1rem;}
+      .faq-list{padding: 0px 0px 15px 0px;}
+    }
+
+    /******** 320 - 374 ********/
+    @media (min-width: 320px) and (max-width: 374px) {
+      .feedback-text{font-size:0.8rem;}
+      /************** Header ***************/ 
+      .logo{width: 80%;}
+      .sea-icon{width: 50px;margin-top: 1rem;}
+      .navbar{padding-left: 1.5rem;padding-right: 1.5rem;}
+      .navbar-brand{width: 190px;}
+      /************** HeroBanner ***************/ 
+      .first-row{padding: 0px 15px 0px 15px;}
+      .hero-banner h1{font-size: 2.5rem;}
+      .hero-banner p{font-size: 1rem;}
+      .hero-banner p br{display: none;}
+      .countdown-timer{display: none;}
+      .hero-btn button{font-size: 1.5rem;width: 225px;height: 70px;}
+      .unicorn-truck{max-width: 90%;margin-top: 5.5rem;}
+      .hero-banner .container-fluid{position:relative;}
+      .hero-btn{width: 100%;text-align: center;}
+      /************** Weekly Raffle ***************/ 
+      .weekly-raffle{padding: 80px 15px;}
+      .unicorn-eggs{width: 225px;}
+      .weekly-raffle h2{font-size: 1.8rem;width: 100%;text-align: center;}
+      .weekly-raffle .second-row{width: unset;}
+      .weekly-raffle .col-md-4{flex: 0 0 33.333333%; max-width: 33.333333%;}
+      .weekly-raffle .flip-countdown.size-medium .flip-countdown-piece .flip-countdown-title{font-size: 1.5rem!important;}
+      .weekly-raffle .flip-countdown.size-medium .flip-countdown-piece{margin: 0 0.2em!important;}
+      .weekly-raffle .flip-countdown.size-medium .flip-countdown-piece .flip-countdown-card .flip-countdown-card-sec{font-size: 2.4rem!important;}
+      .weekly-raffle .flip-countdown{text-align: center!important;}
+
+      /************** Truck Mint ***************/ 
+      .truck-mint{padding: 80px 15px;}
+      .truck-mint .col-md-5 img{width: 80%;}
+      .truck-mint .col-md-5 p{font-size: 1rem;}
+      .truck-mint h2{font-size: 1.8rem;width: 100%;}
+      .small-truck{width: 90px;}
+      .truck-mint h3{font-size: 1.5rem;}
+      .connect-metamask{font-size: 1.3rem; height: 50px;}
+      .truck-mint .mint-quantity{font-size: 1.3rem;width: 120px; padding-left:30px; height: 50px;}
+      .truck-mint .col-md-7{text-align: center;}
+      /************** How it Works ***************/ 
+      .how-works h2{font-size: 2.3rem;}
+      .how-works{padding: 80px 15px;}
+      .how-works img{height: 150px;}
+      .how-works p{font-size: 1rem;}
+      .how-works p span{font-size: 2rem;}
+      .how-works .container{padding-left: 0px;padding-right: 0px;}
+      /************** Unicorn Milk Truck APR ***************/ 
+      .truck-return{padding: 80px 15px;}
+      .truck-return h2{font-size: 2.3rem;}
+      .truck-return .col-md-4 p{font-size: 1.8rem;}
+      .truck-return img{max-width: 85%;}
+      .truck-return .container{padding-left: 0px;padding-right: 0px;}
+      /************** Faq ***************/
+      .faq{padding: 80px 5px;}
+      .faqs{padding: 20px 10px 0px 10px;}
+      .faq h2{font-size: 2.3rem;}
+      .faq-heading{font-size: 1rem;}
+  	  .read{font-size: 0.9rem;}
+    }
+
+    /******** 320 - 345 ********/
+    @media (min-width: 320px) and (max-width: 345px) {
+      .unicorn-bg{margin-top: -13rem;}
+    }
+
+    /******** 346 - 374 ********/
+    @media (min-width: 346px) and (max-width: 374px) {
+      .unicorn-bg{margin-top: -14rem;}
+    }
+
+    /******** 375 - 400 ********/
+    @media (min-width: 375px) and (max-width: 400px) {
+      .unicorn-bg{margin-top: -15rem;}
+    }
+    /******** 401 - 424 ********/
+    @media (min-width: 401px) and (max-width: 424px) {
+      .unicorn-bg{margin-top: -16rem;}
+    }
+
+    /******** 451 - 475 ********/
+    @media (min-width: 451px) and (max-width: 475px) {
+      .unicorn-bg{margin-top: -18rem;}
+    }
+
+    /******** 476 - 500 ********/
+    @media (min-width: 476px) and (max-width: 500px) {
+      .unicorn-bg{margin-top: -19rem;}
+    }
+
+    /******** 501 - 525 ********/
+    @media (min-width: 501px) and (max-width: 525px) {
+      .unicorn-bg{margin-top: -20rem;}
+    }
+
+    /******** 526 - 550 ********/
+    @media (min-width: 526px) and (max-width: 550px) {
+      .unicorn-bg{margin-top: -21rem;}
+    }
+
+    /******** 551 - 575 ********/
+    @media (min-width: 551px) and (max-width: 575px) {
+      .unicorn-bg{margin-top: -22rem;}
+      .hero-btn{position: relative;top: 2rem;}
+    }
+
+    /******** 576 - 600 ********/
+    @media (min-width: 576px) and (max-width: 600px) {
+      .unicorn-bg{margin-top: -23rem;}
+      .hero-btn{position: relative;top: 2rem;}
+    }
+
+    /******** 601 - 625 ********/
+    @media (min-width: 601px) and (max-width: 625px) {
+      .unicorn-bg{margin-top: -24rem;}
+      .hero-btn{position: relative;top: 2rem;}
+    }
+
+    /******** 626 - 650 ********/
+    @media (min-width: 626px) and (max-width: 650px) {
+      .unicorn-bg{margin-top: -25rem;}
+      .hero-btn{position: relative;top: 2rem;}
+    }
+
+    /******** 651 - 675 ********/
+    @media (min-width: 651px) and (max-width: 675px) {
+      .unicorn-bg{margin-top: -26rem;}
+      .hero-btn{position: relative;top: 2rem;}
+    }
+
+    /******** 676 - 700 ********/
+    @media (min-width: 676px) and (max-width: 700px) {
+      .unicorn-bg{margin-top: -27rem;}
+      .hero-btn{position: relative;top: 3rem;}
+    }
+
+    /******** 701 - 725 ********/
+    @media (min-width: 701px) and (max-width: 725px) {
+      .unicorn-bg{margin-top: -28rem;}
+      .hero-btn{position: relative;top: 3rem;}
+    }
+
+    /******** 726 - 750 ********/
+    @media (min-width: 726px) and (max-width: 750px) {
+      .unicorn-bg{margin-top: -29rem;}
+      .hero-btn{position: relative;top: 3rem;}
+    }
+
+    /******** 751 - 767 ********/
+    @media (min-width: 751px) and (max-width: 767px) {
+      .unicorn-bg{margin-top: -30rem;}
+      .hero-btn{position: relative;top: 3rem;}
+    }
+
+    /******** 450 - 767 ********/
+    @media (min-width: 450px) and (max-width: 767px) {
+      .weekly-raffle .flip-countdown.size-medium .flip-countdown-piece .flip-countdown-title{font-size: 2rem!important;}
+      .weekly-raffle .flip-countdown.size-medium .flip-countdown-piece{margin: 0 0.2em!important;width: 80px!important;text-align: center!important;}
+      .weekly-raffle .flip-countdown.size-medium .flip-countdown-piece .flip-countdown-card .flip-countdown-card-sec{font-size: 2.5rem!important;}
+    }
+
+

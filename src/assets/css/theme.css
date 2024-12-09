@@ -1,0 +1,27 @@
+
+
+@font-face {
+    font-family: 'Gothan Medium';
+    src: url('../fonts/gothammedium-webfont.woff2') format('woff2'),
+         url('../fonts/gothammedium-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gothan Medium Italic';
+  src: url('../fonts/gotham-ultraitalic-webfont.woff2') format('woff2'),
+       url('../fonts/gotham-ultraitalic-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('../fonts/bebasneue-regular-webfont.woff2') format('woff2'),
+       url('../fonts/bebasneue-regular-webfont.woff') format('woff');
+}
+
+body {
+  font-family: 'Gothan Medium';
+}
+
+h1, h2, h3, h4, h5{
+  font-family: 'Gothan Medium Italic';
+}

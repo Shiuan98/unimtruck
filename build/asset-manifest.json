@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.41b8917a.chunk.css",
+    "main.js": "/static/js/main.d092120b.chunk.js",
+    "main.js.map": "/static/js/main.d092120b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0758f9ab.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0758f9ab.js.map",
+    "static/css/2.ae9e5f60.chunk.css": "/static/css/2.ae9e5f60.chunk.css",
+    "static/js/2.c50fc2a3.chunk.js": "/static/js/2.c50fc2a3.chunk.js",
+    "static/js/2.c50fc2a3.chunk.js.map": "/static/js/2.c50fc2a3.chunk.js.map",
+    "static/js/3.c3378d90.chunk.js": "/static/js/3.c3378d90.chunk.js",
+    "static/js/3.c3378d90.chunk.js.map": "/static/js/3.c3378d90.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.ae9e5f60.chunk.css.map": "/static/css/2.ae9e5f60.chunk.css.map",
+    "static/css/main.41b8917a.chunk.css.map": "/static/css/main.41b8917a.chunk.css.map",
+    "static/js/2.c50fc2a3.chunk.js.LICENSE.txt": "/static/js/2.c50fc2a3.chunk.js.LICENSE.txt",
+    "static/js/3.c3378d90.chunk.js.LICENSE.txt": "/static/js/3.c3378d90.chunk.js.LICENSE.txt",
+    "static/media/CU Milk Truck - Web-03.26dce972.png": "/static/media/CU Milk Truck - Web-03.26dce972.png",
+    "static/media/CU Milk Truck - Web-04.e1a1ba41.png": "/static/media/CU Milk Truck - Web-04.e1a1ba41.png",
+    "static/media/CU Milk Truck - Web-05.94f9dd44.png": "/static/media/CU Milk Truck - Web-05.94f9dd44.png",
+    "static/media/CU Milk Truck - Web-06.dd4400e8.png": "/static/media/CU Milk Truck - Web-06.dd4400e8.png",
+    "static/media/CU Milk Truck - Web-07.18011f7f.png": "/static/media/CU Milk Truck - Web-07.18011f7f.png",
+    "static/media/CU Milk Truck - Web-08.6e4a0e0d.png": "/static/media/CU Milk Truck - Web-08.6e4a0e0d.png",
+    "static/media/CU Milk Truck - Web-09.4c8bf623.png": "/static/media/CU Milk Truck - Web-09.4c8bf623.png",
+    "static/media/CU Milk Truck - Web-10.80d870fd.png": "/static/media/CU Milk Truck - Web-10.80d870fd.png",
+    "static/media/CU Milk Truck - Web-11.fde41684.png": "/static/media/CU Milk Truck - Web-11.fde41684.png",
+    "static/media/CU Milk Truck - Web-12.72fb88f6.png": "/static/media/CU Milk Truck - Web-12.72fb88f6.png",
+    "static/media/CU Milk Truck - Web-13.8bfe7989.png": "/static/media/CU Milk Truck - Web-13.8bfe7989.png",
+    "static/media/CU-Milk-Truck-Web-02.7efa36e3.png": "/static/media/CU-Milk-Truck-Web-02.7efa36e3.png",
+    "static/media/ES_Horse Neigh 5 - SFX Producer.b884f517.mp3": "/static/media/ES_Horse Neigh 5 - SFX Producer.b884f517.mp3",
+    "static/media/theme.css": "/static/media/gothammedium-webfont.ceae3f9b.woff",
+    "static/media/truck.cef38768.gif": "/static/media/truck.cef38768.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0758f9ab.js",
+    "static/css/2.ae9e5f60.chunk.css",
+    "static/js/2.c50fc2a3.chunk.js",
+    "static/css/main.41b8917a.chunk.css",
+    "static/js/main.d092120b.chunk.js"
+  ]
+}
